@@ -20081,3 +20081,342 @@ Please also refer to the documentation for alternative solver options:
                    random_state=42, solver='lbfgs', tol=0.0001, verbose=0,
                    warm_start=False)
 2024-11-14 11:05:28,066:INFO:compare_models() successfully completed......................................
+2024-11-15 09:07:51,725:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-15 09:07:51,726:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-15 09:07:51,726:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-15 09:07:51,726:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-11-15 09:08:28,569:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-15 09:08:28,602:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-15 09:08:28,615:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-15 09:08:28,619:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\metrics\_classification.py:1509: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+
+2024-11-15 09:09:21,490:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_validation.py:547: FitFailedWarning: 
+150 fits failed out of a total of 900.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+150 fits failed with the following error:
+Traceback (most recent call last):
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\linear_model\_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2024-11-15 09:09:21,512:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.52873464 0.53343704 0.52881214        nan 0.52551885 0.52341792
+ 0.52873464 0.53343704 0.52881214        nan 0.52551885 0.52341792
+ 0.52873464 0.53343704 0.52881214        nan 0.52551885 0.52341792
+ 0.59231343 0.59269599 0.59284053        nan 0.59245854 0.59259778
+ 0.59231343 0.59269599 0.59284053        nan 0.59245854 0.59259778
+ 0.59231343 0.59269599 0.59284053        nan 0.59245854 0.59259778
+ 0.53537524 0.5356171  0.53469752        nan 0.53497127 0.53471007
+ 0.53537524 0.5356171  0.53469752        nan 0.53497127 0.53471007
+ 0.53537524 0.5356171  0.53469752        nan 0.53497127 0.53471007
+ 0.59255383 0.5921197  0.59253587        nan 0.59223157 0.59224801
+ 0.59255383 0.5921197  0.59253587        nan 0.59223157 0.59224801
+ 0.59255383 0.5921197  0.59253587        nan 0.59223157 0.59224801
+ 0.53638956 0.53614646 0.53614646        nan 0.53554268 0.53554268
+ 0.53638956 0.53614646 0.53614646        nan 0.53554268 0.53554268
+ 0.53638956 0.53614646 0.53614646        nan 0.53554268 0.53554268
+ 0.59133986 0.5909561  0.59098805        nan 0.59140712 0.59131468
+ 0.59133986 0.5909561  0.59098805        nan 0.59140712 0.59131468
+ 0.59133986 0.5909561  0.59098805        nan 0.59140712 0.59131468
+ 0.53570527 0.53582238 0.53582238        nan 0.5358077  0.53563534
+ 0.53570527 0.53582238 0.53582238        nan 0.5358077  0.53563534
+ 0.53570527 0.53582238 0.53582238        nan 0.5358077  0.53563534
+ 0.59121847 0.59105071 0.59108265        nan 0.59105071 0.59108265
+ 0.59121847 0.59105071 0.59108265        nan 0.59105071 0.59108265
+ 0.59121847 0.59105071 0.59108265        nan 0.59105071 0.59108265
+ 0.53536035 0.53582238 0.53582238        nan 0.53563534 0.53563534
+ 0.53536035 0.53582238 0.53582238        nan 0.53563534 0.53563534
+ 0.53536035 0.53582238 0.53582238        nan 0.53563534 0.53563534
+ 0.59125041 0.59105071 0.59105071        nan 0.59105071 0.59105071
+ 0.59125041 0.59105071 0.59105071        nan 0.59105071 0.59105071
+ 0.59125041 0.59105071 0.59105071        nan 0.59105071 0.59105071]
+  warnings.warn(
+
+2024-11-15 09:10:24,735:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_validation.py:547: FitFailedWarning: 
+150 fits failed out of a total of 900.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+150 fits failed with the following error:
+Traceback (most recent call last):
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\linear_model\_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2024-11-15 09:10:24,744:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.77872955 0.77950146 0.77893673        nan 0.78311972 0.78246494
+ 0.77872955 0.77950146 0.77893673        nan 0.78311972 0.78246494
+ 0.77872955 0.77950146 0.77893673        nan 0.78311972 0.78246494
+ 0.77872955 0.77950146 0.77893673        nan 0.78316953 0.78246494
+ 0.77872955 0.77950146 0.77893673        nan 0.78316953 0.78246494
+ 0.77872955 0.77950146 0.77893673        nan 0.78316953 0.78246494
+ 0.77756462 0.77768724 0.7776476         nan 0.77807412 0.77798505
+ 0.77756462 0.77768724 0.7776476         nan 0.77807412 0.77798505
+ 0.77756462 0.77768724 0.7776476         nan 0.77807412 0.77798505
+ 0.77754629 0.77768724 0.7776476         nan 0.77807412 0.77795498
+ 0.77754629 0.77768724 0.7776476         nan 0.77807412 0.77795498
+ 0.77754629 0.77768724 0.7776476         nan 0.77807412 0.77795498
+ 0.77714565 0.77730348 0.77725546        nan 0.77745671 0.77733624
+ 0.77714565 0.77730348 0.77725546        nan 0.77745671 0.77733624
+ 0.77714565 0.77730348 0.77725546        nan 0.77745671 0.77733624
+ 0.77714565 0.77730348 0.77725546        nan 0.77747506 0.77730616
+ 0.77714565 0.77730348 0.77725546        nan 0.77747506 0.77730616
+ 0.77714565 0.77730348 0.77725546        nan 0.77747506 0.77730616
+ 0.77717972 0.77737181 0.77720712        nan 0.77731935 0.77727402
+ 0.77717972 0.77737181 0.77720712        nan 0.77731935 0.77727402
+ 0.77717972 0.77737181 0.77720712        nan 0.77731935 0.77727402
+ 0.77717972 0.77735282 0.77722547        nan 0.77731935 0.77727402
+ 0.77717972 0.77735282 0.77722547        nan 0.77731935 0.77727402
+ 0.77717972 0.77735282 0.77722547        nan 0.77731935 0.77727402
+ 0.77717941 0.77730623 0.7772268         nan 0.7773377  0.7772268
+ 0.77717941 0.77730623 0.7772268         nan 0.7773377  0.7772268
+ 0.77717941 0.77730623 0.7772268         nan 0.7773377  0.7772268
+ 0.77717941 0.77730623 0.7772268         nan 0.7773377  0.7772268
+ 0.77717941 0.77730623 0.7772268         nan 0.7773377  0.7772268
+ 0.77717941 0.77730623 0.7772268         nan 0.7773377  0.7772268 ]
+  warnings.warn(
+
+2024-11-15 09:10:43,789:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_validation.py:547: FitFailedWarning: 
+35 fits failed out of a total of 100.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+35 fits failed with the following error:
+Traceback (most recent call last):
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\linear_model\_logistic.py", line 1172, in fit
+    solver = _check_solver(self.solver, self.penalty, self.dual)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\linear_model\_logistic.py", line 67, in _check_solver
+    raise ValueError(
+ValueError: Solver lbfgs supports only 'l2' or None penalties, got l1 penalty.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+2024-11-15 09:10:43,791:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\sklearn\model_selection\_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.77950146 0.77756462        nan 0.77714565 0.77730623        nan
+ 0.77872955 0.7776476  0.77727402 0.77731935        nan        nan
+        nan 0.77731935        nan 0.78311972        nan 0.77727402
+ 0.77714565 0.7776476 ]
+  warnings.warn(
+
+2024-11-15 09:10:44,091:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:44,398:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:44,722:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:44,778:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:44,866:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:45,011:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:45,323:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:45,703:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:45,912:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:46,232:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:46,588:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:47,140:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:47,681:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:48,181:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:48,295:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:48,732:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:49,267:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:49,357:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:49,393:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:49,602:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:55,594:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:55,687:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:55,897:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:55,982:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:56,414:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:56,795:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:57,167:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:57,221:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:57,498:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:57,754:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:58,285:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:58,825:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:59,327:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:59,431:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:10:59,974:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:00,289:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:00,791:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:00,985:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:01,370:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:01,572:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:02,835:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:03,036:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:03,366:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:03,687:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:04,323:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:04,433:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:04,562:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:05,094:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:05,236:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:05,499:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:05,813:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:06,097:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:06,275:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:06,552:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:06,822:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:07,099:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:07,369:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:07,645:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:07,919:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+
+2024-11-15 09:11:08,281:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_16940\1577717246.py:2: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  C = trial.suggest_loguniform('C', 1e-4, 1e2)
+

@@ -8,3 +8,4 @@ optuna
 tabulate
 pycaret
 imbalanced-learn
+shap

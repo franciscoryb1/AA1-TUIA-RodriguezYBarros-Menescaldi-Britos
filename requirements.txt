@@ -9,3 +9,4 @@ tabulate
 pycaret
 imbalanced-learn
 shap
+tensorflow

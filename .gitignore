@@ -1,3 +1,2 @@
-.env/
-env/
-.\Clasificación\logs.log
+env
+Clasificación\logs.log

@@ -12680,3 +12680,6 @@ Please also refer to the documentation for alternative solver options:
 2024-11-27 23:14:08,295:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\3452956992.py:19: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
   metrics_df = pd.concat([metrics_df, new_row], ignore_index=True)
 
+2024-11-27 23:14:45,834:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\2016807182.py:19: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  metrics_df = pd.concat([metrics_df, new_row], ignore_index=True)
+

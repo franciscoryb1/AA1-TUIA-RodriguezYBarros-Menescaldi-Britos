@@ -12683,3 +12683,192 @@ Please also refer to the documentation for alternative solver options:
 2024-11-27 23:14:45,834:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\2016807182.py:19: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
   metrics_df = pd.concat([metrics_df, new_row], ignore_index=True)
 
+2024-11-28 00:31:25,224:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:31:25,225:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:31:25,226:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:31:34,805:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:31:34,805:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:31:34,806:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:31:44,383:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:31:44,384:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:31:44,384:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:31:50,987:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:31:50,988:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:31:50,988:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:32:07,388:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:32:07,389:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:32:07,390:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:32:13,400:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:32:13,401:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:32:13,401:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:32:22,707:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:32:22,707:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:32:22,707:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:32:28,001:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:32:28,002:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:32:28,002:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:32:35,116:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:32:35,117:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:32:35,117:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:32:41,161:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:32:41,162:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:32:41,162:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:32:50,276:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:32:50,290:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:32:50,295:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:33:03,766:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:33:03,781:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:33:03,786:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:33:15,103:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:33:15,119:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:33:15,125:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:33:18,919:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:33:18,933:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:33:18,938:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:33:28,687:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:33:28,701:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:33:28,707:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:33:35,302:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:33:35,325:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:33:35,333:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:33:47,227:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:33:47,246:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:33:47,251:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:33:56,588:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:33:56,603:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:33:56,607:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:34:02,045:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:34:02,059:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:34:02,067:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:34:08,948:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:8: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-28 00:34:08,962:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:11: FutureWarning: suggest_uniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float instead.
+  dropout = trial.suggest_uniform("dropout", 0.1, 0.5)  # Tasa de dropout
+
+2024-11-28 00:34:08,969:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_14996\446918380.py:12: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  l2_reg = trial.suggest_loguniform("l2_reg", 1e-6, 1e-2)  # Regularización L2
+
+2024-11-28 00:40:32,155:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+2024-11-28 00:45:09,636:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+
+2024-11-28 00:46:27,262:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\layers\core\dense.py:87: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+

@@ -29,26 +29,25 @@ def predecir(data):
     return data
 
 if __name__ == "__main__":
-    # Ruta del archivo CSV de entrada proporcionado por el usuario
-    input_csv = "input_usuario.csv"
-
-    # Ruta del archivo de salida
-    output_csv = "predicciones_output.csv"
+    # Ruta fija del archivo CSV de entrada dentro del contenedor
+    input_csv = "input.csv"
+    output_dir = "output"  # Directorio para guardar los resultados
+    output_csv = os.path.join(output_dir, "predicciones_output.csv")
 
     try:
-        # Verificar si el archivo de salida es un directorio
-        if os.path.isdir(output_csv):
-            raise ValueError(f"Error: '{output_csv}' es un directorio, no se puede escribir en él.")
-        
-        # Cargar los datos desde el CSV
+        # Crear el directorio de salida si no existe
+        if not os.path.exists(output_dir):
+            os.makedirs(output_dir)
+
+        # Cargar los datos desde el archivo CSV proporcionado
         data = pd.read_csv(input_csv)
-        print(f"Datos cargados exitosamente:\n{data.head()}")
+        print(f"Datos cargados exitosamente desde {input_csv}:\n{data.head()}")
 
         # Realizar la predicción
         print("Iniciando el preprocesamiento y la predicción...")
         resultado = predecir(data)
-        
-        # Guardar el resultado en un nuevo archivo CSV
+
+        # Guardar el resultado en un archivo CSV dentro del directorio `output`
         resultado.to_csv(output_csv, index=False)
         print(f"Predicciones guardadas en: {output_csv}")
 

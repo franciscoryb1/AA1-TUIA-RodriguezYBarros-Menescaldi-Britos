@@ -4,6 +4,9 @@ FROM python:3.9-slim
 # Establecer el directorio de trabajo en el contenedor
 WORKDIR /app
 
+# Crear el directorio de salida dentro del contenedor
+RUN mkdir -p /app/output
+
 # Copiar únicamente los archivos necesarios
 COPY inferencia.py /app/inferencia.py
 COPY preprocesamiento.py /app/preprocesamiento.py
@@ -17,5 +20,5 @@ RUN pip install --upgrade pip
 # Instalar las dependencias necesarias
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Comando para ejecutar el script de inferencia
+# Configurar el contenedor para ejecutar el script de inferencia
 CMD ["python", "inferencia.py"]

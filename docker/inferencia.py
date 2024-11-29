@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 from tensorflow.keras.models import load_model
 from preprocesamiento import preprocesar_datos
@@ -29,10 +30,17 @@ def predecir(data):
 
 if __name__ == "__main__":
     # Ruta del archivo CSV de entrada proporcionado por el usuario
-    input_csv = "input_usuario.csv"  # Reemplaza con la ruta de tu archivo de prueba
+    input_csv = "input_usuario.csv"
 
-    # Cargar los datos desde el CSV
+    # Ruta del archivo de salida
+    output_csv = "predicciones_output.csv"
+
     try:
+        # Verificar si el archivo de salida es un directorio
+        if os.path.isdir(output_csv):
+            raise ValueError(f"Error: '{output_csv}' es un directorio, no se puede escribir en él.")
+        
+        # Cargar los datos desde el CSV
         data = pd.read_csv(input_csv)
         print(f"Datos cargados exitosamente:\n{data.head()}")
 
@@ -41,7 +49,6 @@ if __name__ == "__main__":
         resultado = predecir(data)
         
         # Guardar el resultado en un nuevo archivo CSV
-        output_csv = "predicciones_output.csv"
         resultado.to_csv(output_csv, index=False)
         print(f"Predicciones guardadas en: {output_csv}")
 

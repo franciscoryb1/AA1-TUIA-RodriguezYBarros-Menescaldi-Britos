@@ -1,0 +1,6 @@
+MinTemp,MaxTemp,Rainfall,Evaporation,Sunshine,WindGustDir,WindGustSpeed,WindDir9am,WindDir3pm,WindSpeed9am,WindSpeed3pm,Humidity9am,Humidity3pm,Pressure9am,Pressure3pm,Cloud9am,Cloud3pm,Temp9am,Temp3pm,RainToday,RainTomorrow
+20.4,25.8,0.0,6.0,12.4,NNW,31.0,NNW,NW,13.0,19.0,84.0,71.0,1014.5,1013.6,3.0,1.0,23.3,24.7,No,No
+20.9,26.7,0.2,8.0,10.3,N,31.0,NNE,NE,15.0,6.0,79.0,77.0,1016.3,1015.5,2.0,5.0,25.0,25.1,No,No
+22.3,26.3,0.0,3.2,2.0,E,35.0,ENE,SE,6.0,19.0,87.0,90.0,1014.6,1014.3,7.0,7.0,24.7,23.8,No,Yes
+21.6,22.2,1.2,2.8,0.0,ESE,41.0,ESE,ESE,20.0,22.0,92.0,95.0,1016.0,1015.3,8.0,8.0,22.1,21.2,Yes,Yes
+20.4,23.5,2.6,2.2,2.9,ESE,52.0,ESE,ESE,24.0,28.0,86.0,86.0,1015.3,1013.7,7.0,7.0,21.8,21.6,Yes,No

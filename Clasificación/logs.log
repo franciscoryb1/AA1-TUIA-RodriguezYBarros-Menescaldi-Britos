@@ -19510,3 +19510,252 @@ Please also refer to the documentation for alternative solver options:
                                     warm_start=False))],
          verbose=False)
 2024-11-29 19:35:45,331:INFO:save_model() successfully completed......................................
+2024-11-29 19:50:05,718:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:50:20,829:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:50:30,101:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:50:42,238:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:50:50,864:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:51:02,172:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:51:07,945:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:51:28,908:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:51:52,659:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:52:05,605:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:52:13,436:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:52:23,106:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:52:34,443:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:52:45,867:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:53:00,246:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:53:10,406:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:53:20,257:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:53:32,743:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:53:42,361:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:54:00,934:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:54:12,014:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:54:18,818:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:54:30,056:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:54:41,480:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:54:53,615:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:55:11,290:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:55:22,099:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:55:32,876:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:55:47,573:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:55:58,537:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:56:07,402:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:56:19,029:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:56:30,986:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:56:42,094:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:56:54,410:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:57:07,066:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:57:19,296:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:57:35,315:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:57:41,232:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:57:51,151:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:58:09,695:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:58:23,209:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:58:37,848:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:58:49,050:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:59:02,204:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:59:14,129:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:59:25,922:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:59:37,526:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:59:49,743:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 19:59:59,232:WARNING:C:\Users\Francisco\AppData\Local\Temp\ipykernel_12892\725311547.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  learning_rate = trial.suggest_loguniform("learning_rate", 1e-4, 1e-2)  # Tasa de aprendizaje
+
+2024-11-29 20:08:17,388:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\shap\explainers\_deep\deep_tf.py:99: UserWarning: Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.
+  warnings.warn("Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.")
+
+2024-11-29 20:08:17,426:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(50, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:08:17,554:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(100, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:09:01,770:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\shap\explainers\_deep\deep_tf.py:99: UserWarning: Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.
+  warnings.warn("Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.")
+
+2024-11-29 20:09:01,773:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(50, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:09:01,793:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(100, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:09:30,624:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\shap\explainers\_deep\deep_tf.py:99: UserWarning: Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.
+  warnings.warn("Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.")
+
+2024-11-29 20:09:30,627:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(50, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:09:30,645:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(100, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:10:01,702:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\shap\explainers\_deep\deep_tf.py:99: UserWarning: Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.
+  warnings.warn("Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.")
+
+2024-11-29 20:10:01,705:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(50, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:10:01,730:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(100, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:13:56,393:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\shap\explainers\_deep\deep_tf.py:99: UserWarning: Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.
+  warnings.warn("Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.")
+
+2024-11-29 20:13:56,395:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(100, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:13:56,411:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(200, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:14:28,758:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\shap\explainers\_deep\deep_tf.py:155: UserWarning: You have provided over 5k background samples! For better performance consider using smaller random sample.
+  warnings.warn("You have provided over 5k background samples! For better performance consider using smaller random sample.")
+
+2024-11-29 20:14:28,765:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(33900, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:14:28,815:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(67800, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:14:29,942:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(10, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:22:56,406:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\shap\explainers\_deep\deep_tf.py:99: UserWarning: Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.
+  warnings.warn("Your TensorFlow version is newer than 2.4.0 and so graph support has been removed in eager mode and some static graphs may not be supported. See PR #1483 for discussion.")
+
+2024-11-29 20:22:56,440:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\shap\explainers\_deep\deep_tf.py:155: UserWarning: You have provided over 5k background samples! For better performance consider using smaller random sample.
+  warnings.warn("You have provided over 5k background samples! For better performance consider using smaller random sample.")
+
+2024-11-29 20:22:56,632:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(33900, 23))']
+  warnings.warn(msg)
+
+2024-11-29 20:22:57,113:WARNING:c:\Users\Francisco\Desktop\AA1-TUIA-RodriguezYBarros-Menescaldi-Britos\.env\Lib\site-packages\keras\src\models\functional.py:238: UserWarning: The structure of `inputs` doesn't match the expected structure.
+Expected: keras_tensor_250
+Received: inputs=['Tensor(shape=(67800, 23))']
+  warnings.warn(msg)
+

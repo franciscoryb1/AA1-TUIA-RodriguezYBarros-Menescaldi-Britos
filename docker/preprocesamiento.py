@@ -12,7 +12,7 @@ grupos_principales = {
 
 SCALER_PATH = "./scaler.joblib"
 
-# Cargar el scaler serializado
+# Cargamos el scaler preentrenado
 scaler = joblib.load(SCALER_PATH)
 
 columnas_a_estandarizar = [
